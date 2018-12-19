@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tour Plans</title>
+		<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<!-- 
+	<script src="js/AboutUs.js"></script> -->
+	<link href="style.css" type="text/css" rel="stylesheet"/>
+
+<!-- 	<script type="text/javascript" src="js/AboutUs.js" ></script>
+	<script>
+		var startItem = document.getElementByID('two');
+		var prevItem = startItem.previousSibling;
+		var nextItem = startItem.nextSibling;
+
+		prevItem.className = 'complete';
+		nextItem.className = 'cool';
+	</script> -->
+	<script>
+		Stickyfill.add(document.querySelector('.js-sidebar'))
+
+	</script>
+
+</head>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<a class="navbar-brand" href="index.html"><img src="img/logo2.png" alt="US-China Education Council"></a>
+	<button class="navbar-toggler" type="botton" data-toggle="collapse" date-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">Home</a>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown" href="AboutUs.html" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="AboutUs.html">About Us</a>
+		          <a class="dropdown-item" href="Testimonials.html">Testimonials</a>
+		         </div>
+			</li>
+
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">China Tour</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="ChinaTour.html">Why China</a>
+		          <a class="dropdown-item" href="#">China Trip Plans</a>
+		          <a class="dropdown-item" href="#">Trips Next Year</a>
+		          <a class="dropdown-item" href="#">Custom Tour</a>
+		          <a class="dropdown-item" href="#">Book a Tour</a>
+		         </div>
+			</li>
+	
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info Center</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Passport & Visa</a>
+		          <a class="dropdown-item" href="#">Vaccinations</a>
+		          <a class="dropdown-item" href="#">Trip Planning</a>
+		          <a class="dropdown-item" href="#">China Info</a>
+		         </div>
+			</li>
+			<li class="nav-item active">
+				<a class="nav-link" href="ContactUs.html">Contact Us</a>
+			</li>
+		</ul>
+	</div>
+</div>
+	
+</nav>
+
+<!--- Image Slider -->
+<div id="slider" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="img/slide0.png" alt="US-China">
+			<div class="carousel-caption d-none d-md-block">
+				<h1 class="display-3">US-China</h1>	
+				<h2>Education Council</h2>
+				<br>
+			</div>
+		</div>
+
+		<div class="carousel-item">
+			<img src="img/slide1.png" width="100%"">
+			<div class="carousel-caption d-none d-md-block">
+			
+				<h1 class="display-3">US-China</h1>
+				<h2>Education Council</h2>
+				<br>
+			
+			</div>
+		</div>
+
+		<div class="carousel-item">
+			<img src="img/slide2.png" width="100%">
+			<div class="carousel-caption d-none d-md-block">
+				<h1 class="display-3">US-China</h1>
+				<h2>Education Council</h2>
+				<br>	
+			</div>
+		</div>
+
+	</div>	
+</div> 
+<!--End carousal -->
+
+
+
+
+
+
+
+
+<section class="c-section">
+
+	<aside class="c-sidebar js-sidebar" style="padding: 10px 0; right: 10px !important;">
+	    <ul class="c-sidebar_list" role="navigation" style=" min-height: 100vh; position: center; font-size: 15px !important;">
+	        <li><a href="ChinaTour.html">Why China</a></li>
+	        <li><a href="TourPlans.html">Tour Plans</a></li>
+	        <li><a href="#">Custom Tour</a></li>
+	        <li><a href="#">Book a Tour</a></li>
+	            
+	    </ul>
+	</aside>
+
+	
+	<div class="c-section_content" id="rightContent" style=" margin-left: 140px; width: 50%; height: 10%;">	
+		<div id="content" class="font-weight-normal">
+			<br>
+	    	<div class="col-12 text-center padding ">
+				<h2 class="display-6">2019  China Tours</h2>
+			</div>
+			<br>
+
+	          <p style="margin-top: 0; margin-bottom: 0;"><span style="font-weight: bold; font-size: 20px;">China 3-Best-Cities Tour</span>
+	          <span class="bold blue"><span class="black">&nbsp;Beijing - Xi'an - Shanghai</SPAN></p>
+
+	          <p align="center" class="bold blue" style="margin-top: 0; margin-bottom: 0; ; color: #000000; font-size: 13px;">with site visit for professional development</p><br>
+	          
+	          <p style="margin-top: 0; margin-bottom: 0;"><span class="brightRed black" style="font-weight: bold; font-style: italic">Spring</span><span class="black" style="font-weight: bold">:</span></p>
+	          &nbsp;
+
+	          <p style="margin-top: 0; margin-bottom: 0; font-size: 13px"><span class="black"> March 16-24, 2019,&nbsp; &nbsp; </span>&nbsp; Cost: $2,798 &nbsp; Application Deadline: Dec 16, 2018 </p>
+
+	          <p style="margin-top: 0; margin-bottom: 0; font-size: 13px"><span class="black"> April  20-28, 2019,&nbsp; &nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp; Cost: $2,798 &nbsp;&nbsp; Application Deadline: Jan 20, 2019 </p>
+
+	<br>
+				<p style="margin-top: 0; margin-bottom: 0;"><span class="brightRed black" style="font-weight: bold; font-style: italic">Summer</span><span class="black" style="font-weight: bold">:</span></p>
+	          &nbsp;
+
+				<p style="margin-top: 0; margin-bottom: 0; font-size: 13px"><span class="black"> May 21-29, 2019,&nbsp; &nbsp; </span>&nbsp;&nbsp; Cost: $3,298 &nbsp;Application Deadline: Feb 20, 2019</p>
+
+	         	<p style="margin-top: 0; margin-bottom: 0; font-size: 13px;"><span class="black"> July 1-9, 2019, &nbsp; &nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cost: $3,398 &nbsp;&nbsp; Application Deadline: March 30, 2019</p><br>
+
+				<p class="text-center" style="margin-top: 0; margin-bottom: 0; font-size: 13px"><span style="font-family: Times New Roman;"></span>Click To View details<span class="blue" style="font-size: 15px">--&gt;<A href="documents/China3best-2019_001.pdf">Tour Itinerary</A></span></p>
+	         
+
+				<p style="MARGIN-TOP: 0; margin-bottom: 0;">&nbsp;</p>
+				<p style="MARGIN-TOP: 0; margin-bottom: 0; font-size: 15px;">Any other dates for your group. Contact us via email. Discount prices available for tour organizers.</p> 
+
+				 <p style="margin-top: 0; margin-bottom: 0;"><span class="brightRed" style="font-weight: bold; font-size: 13px;">To book tour, e-mail to:<span style="color: #0000FF">&nbsp;UsChinaEducation@yahoo.com</span></span></p>
+
+
+				 <p class="black" style="margin-top:0;margin-bottom:0;; font-size: 13px;">The three renowned Chinese cities you  will visit are:</p>
+	        
+	          <ul>
+	            <li><strong><span class="blue" style="font-size:13px;">Beijing</span></strong><span style="font-size:13px;"> -- China&rsquo;s national capital, in North China.</span></li>
+	            <li><strong><span class="blue" style="font-size:13px;">Xi&rsquo;an</span></strong><span style="font-size:13px;"> -- capital of 10 Chinese dynasties, starting point of the ancient  over-land Silk Road, in West China.</span></li>
+	            <li><strong><span class="blue" style="font-size:13px;">Shanghai</span></strong><span style="font-size:13px;"> -- China&rsquo;s leading metropolis &amp; financial center,  in Southeast China.</span></li>
+
+	            <li><span style="font-size: 11px"><a href="img/BXS.jpg"> Click here to view the route map</a></span></li>
+	          </ul>
+
+	        	<p style="margin-top: 0; margin-bottom: 0;"><span style="font-weight: bold; font-size: 13px">Distinguished Features:</span></p>
+	        	<li style="font-size: 13px;">Escorted, int'l flights, meals and admissions inclusive tour packages</li>
+
+	          	<li style="font-size: 13px">Visit school, college, business, government agency, NGOs</li>
+	          	<li style="font-size: 13px;"> Luxury  hotel accommodations in all cities</li>
+	          	<li style="font-size: 13px;">Visits to important  historic and cultural site in 3 best Chinese cities</li>
+	        <br>
+		        <p class="black" style= "margin-top: 0; margin-bottom: 0; font-size: 13px;">If China is in your plans, please book your tour early. Join us on our wonderful tours to experience China's long history, unique culture, and rapid modernization, enjoy its beautiful scenery, learn about its educational system, taste its cuisine, and much more.</p>
+
+			<br>
+		</div>
+	</div>
+
+</section>
+
+
+<hr class="my-4">
+
+<!--- Social Media -->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-12">
+		<h4>Connect</h4>
+	</div>
+	<div class="col-12 social padding">
+		<a href="https://www.facebook.com/profile.php?id=100001525701996&sk=about"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-google-plus-g"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-youtube"></i></a>
+	</div>
+</div>
+</div>
+
+
+
+
+
+<!-- footer -->
+
+<footer>
+	<div class="container-fluid padding">
+	<div class="row text-center">
+		<div class="col-md-3">
+			<img src="">
+			<hr class="light">
+		<!---	<h5>Contact US</h5> -->
+			<p>718.951.5225</p>
+			<p>iege@brooklyn.cuny.edu</p>
+			<p>1108 Boylan Hall</p>
+		</div>
+		<div class="col-md-3">
+			<hr class="light">
+			<h5>Our Hours</h5>
+			<hr class="light">
+			<p>Monday: 9am - 5pm</p>
+			<p>Tuesday: 9am - 5pm</p>
+			<p>Saturday - Sunday: Closed</p>
+		</div>
+
+		<div class="col-md-3">
+			<hr class="light">
+			<h5>Our Hours</h5>
+			<hr class="light">
+			<p>Home</p>
+			<p>Events</p>
+			<p>FAQ</p>
+
+		</div>
+	<!--	<div class="col-12">
+			<hr class="light-100">
+			<h5>&copy;2018 All Rights Reserved Brooklyn College</h5>
+		</div> -->
+	</div>
+	</div>
+</footer>
+</body>
+</html>
